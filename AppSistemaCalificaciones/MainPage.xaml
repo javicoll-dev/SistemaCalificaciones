@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSistemaCalificaciones.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Sistema de calificaciones" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
+        </Frame>
+
+        <Label>Parcial 1</Label>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>               
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            
+            <Label Text="Nota de seguimiento" Grid.Row="0" Grid.Column="0"/>
+            <Entry x:Name="txtNotaUno" Keyboard="Numeric" Grid.Row="0" Grid.Column="1" TextChanged="txtNotaUno_TextChanged"/>
+
+            <Label Text="Nota de Examen" Grid.Row="1" Grid.Column="0"/>
+            <Entry x:Name="txtNotaDos" Keyboard="Numeric" Grid.Row="1" Grid.Column="1" TextChanged="txtNotaDos_TextChanged"/>
+
+            <Label Text="Nota primer parcial" Grid.Row="2" Grid.Column="0"/>
+            <Entry x:Name="txtNotaParcialUno" Keyboard="Numeric" Grid.Row="2" Grid.Column="1" IsReadOnly="True"/>
+
+        </Grid>
+
+        <Label>Parcial 2</Label>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+
+            <Label Text="Nota de seguimiento" Grid.Row="0" Grid.Column="0"/>
+            <Entry x:Name="txtNotaUnoP2" Keyboard="Numeric" Grid.Row="0" Grid.Column="1" TextChanged="txtNotaUnoP2_TextChanged"/>
+
+            <Label Text="Nota de Examen" Grid.Row="1" Grid.Column="0"/>
+            <Entry x:Name="txtNotaDosP2" Keyboard="Numeric" Grid.Row="1" Grid.Column="1" TextChanged="txtNotaDosP2_TextChanged"/>
+
+            <Label Text="Nota segundo parcial" Grid.Row="2" Grid.Column="0"/>
+            <Entry x:Name="txtNotaParcialDos" Keyboard="Numeric" Grid.Row="2" Grid.Column="1" IsReadOnly="True"/>
+
+        </Grid>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Nota final" Grid.Row="0" Grid.Column="0"/>
+            <Entry x:Name="txtNotaFinalSemestre" Keyboard="Numeric" Grid.Row="0" Grid.Column="1" IsReadOnly="True"/>
+            
+            <Label Text="El alumno se encuentra" Grid.Row="1" Grid.Column="0"/>
+            <Entry x:Name="txtEstado" Keyboard="Text" Grid.Row="1" Grid.Column="1" IsReadOnly="True"/>
+
+        </Grid>
+        
+
+        <Button x:Name="btnCalculo" Text="Calcular Promedios" Clicked="btnCalculo_Clicked"/>
+
+
+
+    </StackLayout>
+
+</ContentPage>
