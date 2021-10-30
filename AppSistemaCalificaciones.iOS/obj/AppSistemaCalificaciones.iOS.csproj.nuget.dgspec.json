@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\Proyectos_Desarrollo_Movil\\Proyectos_Desarrollo_Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones.iOS\\AppSistemaCalificaciones.iOS.csproj": {}
+    "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones.iOS\\AppSistemaCalificaciones.iOS.csproj": {}
   },
   "projects": {
-    "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\Proyectos_Desarrollo_Movil\\Proyectos_Desarrollo_Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones.iOS\\AppSistemaCalificaciones.iOS.csproj": {
+    "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones.iOS\\AppSistemaCalificaciones.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\Proyectos_Desarrollo_Movil\\Proyectos_Desarrollo_Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones.iOS\\AppSistemaCalificaciones.iOS.csproj",
+        "projectUniqueName": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones.iOS\\AppSistemaCalificaciones.iOS.csproj",
         "projectName": "AppSistemaCalificaciones.iOS",
-        "projectPath": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\Proyectos_Desarrollo_Movil\\Proyectos_Desarrollo_Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones.iOS\\AppSistemaCalificaciones.iOS.csproj",
+        "projectPath": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones.iOS\\AppSistemaCalificaciones.iOS.csproj",
         "packagesPath": "C:\\Users\\javic\\.nuget\\packages\\",
-        "outputPath": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\Proyectos_Desarrollo_Movil\\Proyectos_Desarrollo_Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones.iOS\\obj\\",
+        "outputPath": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\Proyectos_Desarrollo_Movil\\Proyectos_Desarrollo_Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones\\AppSistemaCalificaciones.csproj": {
-                "projectPath": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\Proyectos_Desarrollo_Movil\\Proyectos_Desarrollo_Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones\\AppSistemaCalificaciones.csproj"
+              "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones\\AppSistemaCalificaciones.csproj": {
+                "projectPath": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones\\AppSistemaCalificaciones.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\Proyectos_Desarrollo_Movil\\Proyectos_Desarrollo_Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones\\AppSistemaCalificaciones.csproj": {
+    "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones\\AppSistemaCalificaciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\Proyectos_Desarrollo_Movil\\Proyectos_Desarrollo_Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones\\AppSistemaCalificaciones.csproj",
+        "projectUniqueName": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones\\AppSistemaCalificaciones.csproj",
         "projectName": "AppSistemaCalificaciones",
-        "projectPath": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\Proyectos_Desarrollo_Movil\\Proyectos_Desarrollo_Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones\\AppSistemaCalificaciones.csproj",
+        "projectPath": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones\\AppSistemaCalificaciones.csproj",
         "packagesPath": "C:\\Users\\javic\\.nuget\\packages\\",
-        "outputPath": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\Proyectos_Desarrollo_Movil\\Proyectos_Desarrollo_Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones\\obj\\",
+        "outputPath": "C:\\U-ISRAEL-CARRERA\\Desarrollo Movil\\AppSistemaCalificaciones\\AppSistemaCalificaciones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
