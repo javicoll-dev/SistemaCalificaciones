@@ -9,8 +9,8 @@ namespace AppSistemaCalificaciones
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            //habilitar navegacion entre ventanas
+            MainPage = new NavigationPage( new Login());
         }
 
         protected override void OnStart()

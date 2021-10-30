@@ -10,9 +10,12 @@ namespace AppSistemaCalificaciones
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        public MainPage(string usuario)
         {
             InitializeComponent();
+            //datos en los labels
+            lblUsuario.Text = usuario;
+            
         }
 
         private void btnCalculo_Clicked(object sender, EventArgs e)

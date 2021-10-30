@@ -8,8 +8,8 @@
                 <Label Text="Login Sistema de calificaciones" HorizontalTextAlignment="Center" TextColor="White" FontSize="26"/>
             </Frame>
 
-            <Label>CREDENCIALES DE INGRESO </Label>
-            
+            <Label>DATOS DE INGRESO</Label>
+
             <Entry x:Name="txtUsuario" Keyboard="Text" Placeholder="Ingrese el nombre de usuario"/>
             <Entry x:Name="txtPassword" Placeholder="Ingrese el password" IsPassword="True"/>
 

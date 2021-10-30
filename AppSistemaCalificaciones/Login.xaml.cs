@@ -19,7 +19,7 @@ namespace AppSistemaCalificaciones
 
         private async void btnLogin_Clicked(object sender, EventArgs e)
         {
-            //almacenar datos de usuario
+            //almacenar datos
             string usuario = txtUsuario.Text;
             string password = txtPassword.Text;
 

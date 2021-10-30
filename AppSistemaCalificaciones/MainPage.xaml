@@ -4,9 +4,13 @@
              x:Class="AppSistemaCalificaciones.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+        <Frame BackgroundColor="#2196F3" Padding="5" CornerRadius="0">
             <Label Text="Sistema de calificaciones" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
         </Frame>
+
+        <Label Text="Usuario conectado: "/>
+        <Label x:Name="lblUsuario" />
+
 
         <Label>Parcial 1</Label>
         <Grid>
